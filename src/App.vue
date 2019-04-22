@@ -19,5 +19,8 @@ export default {
 <style>
   #app {
     text-align: center;
+    height: 100%;
+    margin: 0;    
+    background-color: black;
   }
 </style>

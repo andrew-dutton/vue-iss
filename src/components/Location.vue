@@ -1,11 +1,12 @@
 <template>
   <div class="location">
     <h1>ISS LOCATION</h1>
+    <hr>
     <b-button variant="dark" @click="getLocation">Click to refresh</b-button>
     <hr>
     <h1 class="brown">{{ position.countryName }}</h1>
     <h1 class="blue">{{ position.oceanName }}</h1>
-    <h3 class="black">{{ position.unavailableMessage }}</h3>
+    <h3 class="white">{{ position.unavailableMessage }}</h3>
   </div>
 </template>
 
@@ -72,7 +73,8 @@ export default {
 
 <style>
   .location {
-    text-align: center
+    text-align: center;
+    color: rgba(255, 255, 255, 0.788);
   }
   h1.brown {
     color: brown;
@@ -82,8 +84,8 @@ export default {
     color: blue;
     font-size: 100px;
   }
-  h3.black {
-    color: black;
+  h3.white {
+    color: whitesmoke;
     font-size: 80px;
   }
 </style>
