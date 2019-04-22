@@ -21,7 +21,7 @@ export default {
         countryName: '',
         oceanName: '',
         url: 'https://api.opencagedata.com/geocode/v1/json?key=',
-        key: 'c9597587d1e74ab99e30bca952e19834&q=',
+        key: 'API_KEY',
         joiner: "%2C",
         urlEnd: "&pretty=1",
         unavailableMessage: ''
@@ -78,14 +78,14 @@ export default {
   }
   h1.brown {
     color: brown;
-    font-size: 100px;
+    font-size: 70px;
   }
   h1.blue {
     color: blue;
-    font-size: 100px;
+    font-size: 70px;
   }
   h3.white {
     color: whitesmoke;
-    font-size: 80px;
+    font-size: 70px;
   }
 </style>
